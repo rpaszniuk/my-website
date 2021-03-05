@@ -1,6 +1,8 @@
 import Head from 'next/head'
-import { Container, Row, Nav } from 'react-bootstrap'
+import { Container, Row, Nav, Button } from 'react-bootstrap'
 import { useIntl } from 'react-intl';
+import React, { useState } from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 export const name = 'Rodrigo Paszniuk'
 export const siteTitle = 'Rodrigo Paszniuk - Senior Software Engineer'
@@ -8,6 +10,8 @@ export const siteTitle = 'Rodrigo Paszniuk - Senior Software Engineer'
 export default function Layout({ children, home }) {
   const { formatMessage } = useIntl();
   const f = (id) => formatMessage({ id });
+  const [isNavCollapsed, setIsNavCollapsed] = useState(true);
+  const handleNavCollapse = () => setIsNavCollapsed(!isNavCollapsed);
   return (
     <div>
       <Head>
@@ -24,11 +28,10 @@ export default function Layout({ children, home }) {
         <Nav className="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top" id="mainNav">
           <Container>
             <a className="navbar-brand js-scroll-trigger" href="#page-top">{name}</a>
-            <button className="navbar-toggler navbar-toggler-right text-uppercase font-weight-bold bg-primary text-white rounded" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-              Menu
-              <i className="fas fa-bars"></i>
-            </button>
-            <div className="collapse navbar-collapse" id="navbarResponsive">
+            <Button className="navbar-toggler navbar-toggler-right text-uppercase font-weight-bold bg-primary text-white rounded" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded={!isNavCollapsed ? true : false} aria-label="Toggle navigation" onClick={handleNavCollapse}>
+              <FontAwesomeIcon icon={["fas", "bars"]} />
+            </Button>
+            <div class={`${isNavCollapsed ? 'collapse' : ''} navbar-collapse`} id="navbarResponsive">
               <ul className="navbar-nav ml-auto">
                 <li className="nav-item mx-0 mx-lg-1"><a className="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#projects">{f('projects')}</a></li>
                 <li className="nav-item mx-0 mx-lg-1"><a className="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#about">{f('about')}</a></li>
@@ -49,11 +52,11 @@ export default function Layout({ children, home }) {
               </div>
               <div className="col-lg-4 mb-5 mb-lg-0">
                 <h4 className="text-uppercase mb-4">{f('around_the_web')}</h4>
-                <a className="btn btn-outline-light btn-social mx-1" href="https://www.facebook.com/rodrigopaszniuk"><i className="fab fa-fw fa-facebook-f"></i></a>
-                <a className="btn btn-outline-light btn-social mx-1" href="https://twitter.com/rodrigopaszniuk"><i className="fab fa-fw fa-twitter"></i></a>
-                <a className="btn btn-outline-light btn-social mx-1" href="https://www.linkedin.com/in/rodrigo-paszniuk-b879b956/"><i className="fab fa-fw fa-linkedin-in"></i></a>
-                <a className="btn btn-outline-light btn-social mx-1" href="https://github.com/rpaszniuk"><i className="fab fa-fw fa-github"></i></a>
-                <a className="btn btn-outline-light btn-social mx-1" href="https://www.youtube.com/user/rpaszniuk"><i className="fab fa-fw fa-youtube"></i></a>
+                <a className="btn btn-outline-light btn-social mx-1" href="https://www.facebook.com/rodrigopaszniuk"><FontAwesomeIcon icon={["fab", "facebook"]} /></a>
+                <a className="btn btn-outline-light btn-social mx-1" href="https://twitter.com/rodrigopaszniuk"><FontAwesomeIcon icon={["fab", "twitter"]} /></a>
+                <a className="btn btn-outline-light btn-social mx-1" href="https://www.linkedin.com/in/rodrigo-paszniuk-b879b956/"><FontAwesomeIcon icon={["fab", "linkedin"]} /></a>
+                <a className="btn btn-outline-light btn-social mx-1" href="https://github.com/rpaszniuk"><FontAwesomeIcon icon={["fab", "github"]} /></a>
+                <a className="btn btn-outline-light btn-social mx-1" href="https://www.youtube.com/user/rpaszniuk"><FontAwesomeIcon icon={["fab", "youtube"]} /></a>
               </div>
               <div className="col-lg-4">
                 <h4 className="text-uppercase mb-4">{f('my_hobbies')}</h4>
@@ -65,10 +68,6 @@ export default function Layout({ children, home }) {
         <div className="copyright py-4 text-center text-white">
           <Container><small>Copyright © Rodrigo Paszniuk 2021</small></Container>
         </div>
-        <div className="scroll-to-top d-lg-none position-fixed">
-          <a className="js-scroll-trigger d-block text-center text-white rounded" href="#page-top"><i className="fa fa-chevron-up"></i></a>
-        </div>
-        <script src="https://use.fontawesome.com/releases/v5.15.1/js/all.js" crossOrigin="anonymous"></script>
       </div>
     </div>
   )
