@@ -1,5 +1,6 @@
 import Head from 'next/head'
-import { Container, Row, Nav, Button } from 'react-bootstrap'
+import { useRouter } from 'next/router';
+import { Container, Row, Nav, Button, Dropdown } from 'react-bootstrap'
 import { useIntl } from 'react-intl';
 import React, { useState } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -12,6 +13,8 @@ export default function Layout({ children, home }) {
   const f = (id) => formatMessage({ id });
   const [isNavCollapsed, setIsNavCollapsed] = useState(true);
   const handleNavCollapse = () => setIsNavCollapsed(!isNavCollapsed);
+  const router = useRouter()
+  const { locale } = router
   return (
     <div>
       <Head>
@@ -20,6 +23,7 @@ export default function Layout({ children, home }) {
         <link rel="icon" href="/favicon.ico" />
         <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
         <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.5.0/css/flag-icon.min.css" integrity="sha512-Cv93isQdFwaKBV+Z4X8kaVBYWHST58Xb/jVOcV9aRsGSArZsgAnFIhMpDoMDcFNoUtday1hdjn0nGp3+KZyyFw==" crossorigin="anonymous" />
         <meta name="description" content={siteTitle} />
         <meta name="og:title" content={siteTitle} />
         <meta name="author" content={name} />
@@ -36,6 +40,17 @@ export default function Layout({ children, home }) {
                 <li className="nav-item mx-0 mx-lg-1"><a className="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#projects">{f('projects')}</a></li>
                 <li className="nav-item mx-0 mx-lg-1"><a className="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#about">{f('about')}</a></li>
                 <li className="nav-item mx-0 mx-lg-1"><a className="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#contact">{f('contact')}</a></li>
+                <li className="nav-item mx-0 mx-lg-1">
+                  <Dropdown> 
+                    <Dropdown.Toggle className="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" id="dropdown-basic">
+                      {f('language')}
+                    </Dropdown.Toggle>
+                    <Dropdown.Menu>
+                      <Dropdown.Item className={`${locale == 'en' ? 'active' : ''}`} href="/en"><span class="flag-icon flag-icon-us"></span> {f('english')}</Dropdown.Item>
+                      <Dropdown.Item className={`${locale == 'es' ? 'active' : ''}`} href="/es"><span class="flag-icon flag-icon-es"></span> {f('spanish')}</Dropdown.Item>
+                    </Dropdown.Menu>
+                  </Dropdown>
+                </li>
               </ul>
             </div>
           </Container>
@@ -66,7 +81,7 @@ export default function Layout({ children, home }) {
           </Container>
         </footer>
         <div className="copyright py-4 text-center text-white">
-          <Container><small>Copyright © Rodrigo Paszniuk 2021</small></Container>
+          <Container><small>Copyright © Rodrigo Paszniuk {(new Date().getFullYear())}</small></Container>
         </div>
       </div>
     </div>

@@ -1,5 +1,8 @@
 export const es = {
   '/': {
+    language: 'Idioma',
+    spanish: 'Español',
+    english: 'Inglés',
     projects: 'Proyectos',
     about: 'Acerca',
     contact: 'Contacto',

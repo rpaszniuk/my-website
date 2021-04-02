@@ -1,5 +1,8 @@
 export const en = {
   '/': {
+    language: 'Language',
+    spanish: 'Spanish',
+    english: 'English',
     projects: 'Projects',
     about: 'About me!',
     contact: 'Contact',
@@ -15,7 +18,7 @@ export const en = {
     projects_third_subtitle_1: 'Tech consulting, Web and Mobile Apps (Native or Hybrids), APIs and Services, CMSes and CRMs, Digital Marketing, SEO.',
     projects_third_subtitle_2: 'Monitoring tools, Servers, Mikrotik Routers, Computer Networks, Databases, Cache and Search Engine Systems.',
     frases480: 'It is a project that aims to create a crowdsourced database of phrases.',
-    tecnologiapy: 'It is a website, where you can find the latest tech news and also great reviews.',
+    tecnologiapy: 'It is a website where you can find the latest tech news and also great reviews.',
     programacionpy: 'It is a website where you can find resources and documentation for different programming languages.',
     stilogames: 'It is a non-profit community of gamers.',
     about_me_1: 'I was born in Encarnación Paraguay, on October 9, 1991, from a young age I was interested and passionate about computers and technologies.',
