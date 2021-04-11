@@ -1,7 +1,5 @@
 @charset "UTF-8";
 
-@import '~bootstrap/dist/css/bootstrap.min.css';
-
 :root {
   --blue: #007bff;
   --indigo: #6610f2;
