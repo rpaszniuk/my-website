@@ -16,7 +16,7 @@ export default function Home() {
         <Container className="d-flex align-items-center flex-column">
           <img
             className="masthead-avatar mb-5"
-            src="images/rodrigo-paszniuk.png"
+            src="images/rodrigopaszniuk.png"
             alt=""
           />
           <h1 className="masthead-heading text-uppercase mb-0">{name}</h1>
