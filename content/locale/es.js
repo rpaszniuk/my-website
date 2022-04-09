@@ -23,6 +23,8 @@ export const es = {
       "Consultoría tecnológica, Desarrollo de aplicaciones (nativas / híbridas), APIs y Servicios, CMSes / CRMs, Marketing Digital, SEO.",
     projects_third_subtitle_2:
       "Herramientas de monitoreo, Servidores, Routers Mikrotik, Redes, Bases de datos, Cache y Motores de Búsqueda.",
+    projects_third_subtitle_3:
+      "Asesoramiento y soluciones en Criptomonedas, NFTs and Metaversos.",
     frases480:
       "Es un proyecto que tiene como objetivo crear una base de datos colaborativas de diferentes tipos de frases.",
     tecnologiapy:

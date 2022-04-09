@@ -100,6 +100,7 @@ export default function Home() {
             <ul>
               <li>{f("projects_third_subtitle_1")}</li>
               <li>{f("projects_third_subtitle_2")}</li>
+              <li>{f("projects_third_subtitle_3")}</li>
             </ul>
           </Row>
         </Container>

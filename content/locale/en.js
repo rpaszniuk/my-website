@@ -23,6 +23,8 @@ export const en = {
       "Tech consulting, Web and Mobile Apps (Native or Hybrids), APIs and Services, CMSes and CRMs, Digital Marketing, SEO.",
     projects_third_subtitle_2:
       "Monitoring tools, Servers, Mikrotik Routers, Computer Networks, Databases, Cache and Search Engine Systems.",
+    projects_third_subtitle_3:
+      "Cryptocurrencies, NFTs and Metaverses solutions/advisor.",
     frases480:
       "It is a project that aims to create a crowdsourced database of different types of phrases.",
     tecnologiapy:
