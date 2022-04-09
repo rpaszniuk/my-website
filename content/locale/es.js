@@ -24,7 +24,7 @@ export const es = {
     projects_third_subtitle_2:
       "Herramientas de monitoreo, Servidores, Routers Mikrotik, Redes, Bases de datos, Cache y Motores de Búsqueda.",
     projects_third_subtitle_3:
-      "Asesoramiento y soluciones en Criptomonedas, NFTs and Metaversos.",
+      "Asesoramiento y soluciones en Criptomonedas, NFTs y Metaversos.",
     frases480:
       "Es un proyecto que tiene como objetivo crear una base de datos colaborativas de diferentes tipos de frases.",
     tecnologiapy:
