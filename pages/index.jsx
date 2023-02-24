@@ -3,15 +3,19 @@ import Layout, { name } from "../components/layout";
 import { Container, Row } from "react-bootstrap";
 import { useIntl } from "react-intl";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import Script from "next/script";
 
 export default function Home() {
   const { formatMessage } = useIntl();
   const f = (id) => formatMessage({ id });
   return (
     <>
-      <Script strategy="afterInteractive" src="https://www.googletagmanager.com/gtag/js?id=G-4CPKVXGQPQ"/>
       <Script
-        id='google-analytics'
+        strategy="afterInteractive"
+        src="https://www.googletagmanager.com/gtag/js?id=G-4CPKVXGQPQ"
+      />
+      <Script
+        id="google-analytics"
         strategy="afterInteractive"
         dangerouslySetInnerHTML={{
           __html: `
@@ -22,7 +26,7 @@ export default function Home() {
               page_path: window.location.pathname,
             });
           `,
-          }}
+        }}
       />
       <Layout home>
         <Head>
