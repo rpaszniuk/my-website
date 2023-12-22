@@ -20,7 +20,7 @@ export const es = {
     projects_second_title: "Tecnologías con las que trabajo",
     projects_third_title: "Servicios que ofrezco",
     projects_third_subtitle_1:
-      "Consultoría tecnológica, Desarrollo de aplicaciones (nativas / híbridas), APIs y Servicios, CMSes / CRMs, Marketing Digital, SEO, AI.",
+      "Consultoría tecnológica, Desarrollo de aplicaciones (nativas / híbridas), APIs y Servicios, CMSes / CRMs, Marketing Digital, SEO y AI.",
     projects_third_subtitle_2:
       "Herramientas de monitoreo, Servidores, Routers Mikrotik, Redes, Bases de datos, Cache y Motores de Búsqueda.",
     projects_third_subtitle_3:
