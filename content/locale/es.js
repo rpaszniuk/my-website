@@ -7,7 +7,7 @@ export const es = {
     about: "Acerca",
     contact: "Contacto",
     about_me:
-      "Soy Ingeniero Informático y Especialista en Docencia. Con más de 12 años de experiencia en el negocio de Internet, he construido muchas cosas con muchas tecnologías.",
+      "Soy Ingeniero Informático y Especialista en Docencia. Con más de 14 años de experiencia en el negocio de Internet, he construido muchas cosas con muchas tecnologías.",
     about_me_subtitle:
       "Disfruto aprendiendo las últimas tecnologías y compartiendo conocimientos con la comunidad. Si te interesa lo que hago, puedes seguirme en mis redes sociales.",
     my_hobbies: "Mis Pasatiempos",
