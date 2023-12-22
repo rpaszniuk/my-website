@@ -7,7 +7,7 @@ export const en = {
     about: "About me!",
     contact: "Contact",
     about_me:
-      "I am a Senior Software Engineer and a Specialist in Higher Education. With more than 12 years of experience in the Internet business, I have developed many projects using many types of technology.",
+      "I am a Senior Software Engineer and a Specialist in Higher Education. With more than 14 years of experience in the Internet business, I have developed many projects using many types of technology.",
     about_me_subtitle:
       "I enjoy learning about the latest technologies and sharing knowledge with the community. If you are interested in what I do, you can follow me on my social networks.",
     my_hobbies: "My Hobbies",
