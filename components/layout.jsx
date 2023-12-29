@@ -7,7 +7,7 @@ import React, { useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 export const name = "Rodrigo Paszniuk";
-export const siteTitle = "Rodrigo Paszniuk - Senior Software Engineer";
+export const siteTitle = "Rodrigo Paszniuk - Senior Lead Software Architect";
 
 export default function Layout({ children }) {
   const { formatMessage } = useIntl();

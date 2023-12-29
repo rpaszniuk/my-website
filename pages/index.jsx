@@ -48,7 +48,7 @@ export default function Home() {
               <div className="divider-custom-line"></div>
             </div>
             <p className="masthead-subheading font-weight-light mb-0">
-              Senior Software Engineer
+              Senior Lead Software Architect
             </p>
           </Container>
         </header>
