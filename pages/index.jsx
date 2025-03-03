@@ -104,7 +104,9 @@ export default function Home() {
                   (Django, Flask, FastAPI), Kotlin (Android), Swift (iOS).
                 </li>
                 <li>
-                  JavaScript/TypeScript (Next, Express, React, React Native, Electron), Dart (Flutter), C, C++, C#, HTML, CSS (Material / Boostrap / Tailwind).
+                  JavaScript/TypeScript (Next, Express, React, React Native,
+                  Electron), Dart (Flutter), C, C++, C#, HTML, CSS (Material /
+                  Boostrap / Tailwind).
                 </li>
               </ul>
             </Row>
