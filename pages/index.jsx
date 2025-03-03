@@ -74,12 +74,6 @@ export default function Home() {
               <ul>
                 <li>
                   <b>
-                    <a href="https://www.frases480.com">Frases 480:</a>
-                  </b>{" "}
-                  {f("frases480")}
-                </li>
-                <li>
-                  <b>
                     <a href="https://www.tecnologia.com.py">
                       Tecnología Paraguay:
                     </a>
@@ -107,11 +101,10 @@ export default function Home() {
               <ul>
                 <li>
                   Ruby (Ruby on Rails), PHP (Laravel), Java (EE/SE), Python
-                  (Django, Flask), Kotlin (Android), Swift (iOS).
+                  (Django, Flask, FastAPI), Kotlin (Android), Swift (iOS).
                 </li>
                 <li>
-                  Dart (Flutter), Javascript (Vue, React, React Native, Angular,
-                  Node, Electron), C, C++, C#, HTML, CSS (Material / Boostrap).
+                  JavaScript/TypeScript (Next, Express, React, React Native, Electron), Dart (Flutter), C, C++, C#, HTML, CSS (Material / Boostrap / Tailwind).
                 </li>
               </ul>
             </Row>

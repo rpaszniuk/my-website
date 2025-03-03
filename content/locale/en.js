@@ -20,18 +20,16 @@ export const en = {
     projects_second_title: "Technologies I work with",
     projects_third_title: "What services do I offer?",
     projects_third_subtitle_1:
-      "Tech consulting, Web and Mobile Apps (Native or Hybrids), APIs and Services, CMSes and CRMs, Digital Marketing, SEO and AI.",
+      "Tech consulting, Web and Mobile Apps (Native or Hybrids), APIs and Services, CMSes and CRMs, Digital Marketing, SEO, Machine Learning and AI.",
     projects_third_subtitle_2:
       "Monitoring tools, Servers, Mikrotik Routers, Computer Networks, Databases, Cache and Search Engine Systems.",
     projects_third_subtitle_3:
       "Cryptocurrencies, NFTs and Metaverses solutions/advisor.",
-    frases480:
-      "It is a project that aims to create a crowdsourced database of different types of phrases.",
     tecnologiapy:
       "It is a website where you can find the latest tech news and also great reviews.",
     programacionpy:
       "It is a website where you can find resources and documentation for different programming languages.",
-    stilogames: "It is a non-profit community of gamers.",
+    stilogames: "It is a community of gamers.",
     about_me_1:
       "I was born in Encarnación, Paraguay, and from a young age, I was interested and passionate about computers and technologies.",
     about_me_2:
@@ -47,6 +45,6 @@ export const en = {
     about_me_7:
       "In mid-2017, I joined 10 Grounds, a New York-based start-up, as a Senior Lead Software Engineer. Since September 2022, I have proudly served as a Director of 10 Grounds, where I lead teams, manage projects, and engage directly with clients. In addition to my role as a Director, I hold the position of Senior Lead Software Architect, shaping and leading the architectural vision of our software projects. I am passionate about driving innovation and technical excellence in every aspect of our work at 10 Grounds, while ensuring seamless communication and collaboration with both internal teams and external clients.",
     about_me_8:
-      "I am an adept professional with expertise in software development and a robust understanding of various domains within the technology landscape. My proficiency extends across a spectrum of areas, including AI, IT, Databases, Networks, Web Services, Linux, Windows, Information Security, Servers, and DevOps.",
+      "I am an adept professional with expertise in software development and a robust understanding of various domains within the technology landscape. My proficiency extends across a spectrum of areas, including AI, Machine Learning, IT, Databases, Networks, Web Services, Linux, Windows, Information Security, and DevOps.",
   },
 };

@@ -20,18 +20,16 @@ export const es = {
     projects_second_title: "Tecnologías con las que trabajo",
     projects_third_title: "Servicios que ofrezco",
     projects_third_subtitle_1:
-      "Consultoría tecnológica, Desarrollo de aplicaciones (nativas / híbridas), APIs y Servicios, CMSes / CRMs, Marketing Digital, SEO y AI.",
+      "Consultoría tecnológica, Desarrollo de aplicaciones (nativas / híbridas), APIs y Servicios, CMSes / CRMs, Marketing Digital, SEO, Machine Learning e IA.",
     projects_third_subtitle_2:
       "Herramientas de monitoreo, Servidores, Routers Mikrotik, Redes, Bases de datos, Cache y Motores de Búsqueda.",
     projects_third_subtitle_3:
       "Asesoramiento y soluciones en Criptomonedas, NFTs y Metaversos.",
-    frases480:
-      "Es un proyecto que tiene como objetivo crear una base de datos colaborativas de diferentes tipos de frases.",
     tecnologiapy:
       "Es un sitio web, donde podrás encontrar las últimas noticias tecnológicas y también excelentes opiniones.",
     programacionpy:
       "Es un sitio web donde podrás encontrar recursos y documentación para diferentes lenguajes de programación.",
-    stilogames: "Es una comunidad de gamers sin fines de lucro.",
+    stilogames: "Es una comunidad de gamers.",
     about_me_1:
       "Nací en Encarnación Paraguay, desde muy joven me interesé y me apasionaron las computadoras y las tecnologías.",
     about_me_2:
@@ -47,6 +45,6 @@ export const es = {
     about_me_7:
       "En mediados de 2017, me uní a 10 Grounds, una start-up con sede en Nueva York, como Ingeniero de Software Senior Líder. Desde septiembre de 2022, he tenido el orgullo de desempeñarme como Director de 10 Grounds, donde lidero equipos, gestiono proyectos y me involucro directamente con los clientes. Además de mi rol como Director, ocupo el cargo de Arquitecto de Software Senior Líder, dando forma y liderando la visión arquitectónica de nuestros proyectos de software. Me apasiona impulsar la innovación y la excelencia técnica en todos los aspectos de nuestro trabajo en 10 Grounds, asegurando una comunicación y colaboración fluidas tanto con los equipos internos como con los clientes externos.",
     about_me_8:
-      "Soy un profesional diestro con experiencia en desarrollo de software y una comprensión sólida de diversos ámbitos dentro del panorama tecnológico. Mi destreza abarca un espectro de áreas, incluyendo IA, TI, Bases de Datos, Redes, Servicios Web, Linux, Windows, Seguridad de la Información, Servidores y DevOps.",
+      "Soy un profesional diestro con experiencia en desarrollo de software y una comprensión sólida de diversos ámbitos dentro del panorama tecnológico. Mi destreza abarca un espectro de áreas, incluyendo IA, TI, Bases de Datos, Redes, Servicios Web, Linux, Windows, Seguridad de la Información, y DevOps.",
   },
 };
