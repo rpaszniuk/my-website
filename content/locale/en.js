@@ -20,7 +20,7 @@ export const en = {
     projects_second_title: "Technologies I work with",
     projects_third_title: "What services do I offer?",
     projects_third_subtitle_1:
-      "Tech consulting, Web and Mobile Apps (Native or Hybrids), APIs and Services, CMSes and CRMs, Digital Marketing, SEO, Machine Learning and AI.",
+      "Tech consulting, Web and Mobile Apps (Native or Hybrids), APIs, CMSes and CRMs, Digital Marketing, SEO, Machine Learning and AI.",
     projects_third_subtitle_2:
       "Monitoring tools, Servers, Mikrotik Routers, Computer Networks, Databases, Cache and Search Engine Systems.",
     projects_third_subtitle_3:
